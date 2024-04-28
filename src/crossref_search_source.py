@@ -28,8 +28,8 @@ import colrev.exceptions as colrev_exceptions
 import colrev.package_manager.interfaces
 import colrev.package_manager.package_manager
 import colrev.package_manager.package_settings
-import colrev.packages.crossref.utils as connector_utils
-import colrev.packages.doi_org.doi_org as doi_connector
+import colrev.packages.crossref.src.utils as connector_utils
+import colrev.packages.doi_org.src.doi_org as doi_connector
 import colrev.record.record
 import colrev.record.record_prep
 import colrev.record.record_similarity

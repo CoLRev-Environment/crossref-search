@@ -10,7 +10,7 @@ from dataclasses_jsonschema import JsonSchemaMixin
 import colrev.package_manager.interfaces
 import colrev.package_manager.package_manager
 import colrev.package_manager.package_settings
-import colrev.packages.crossref.crossref_search_source as crossref_connector
+import colrev.packages.crossref.src.crossref_search_source as crossref_connector
 import colrev.record.record
 from colrev.constants import Fields
 
