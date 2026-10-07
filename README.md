@@ -1,4 +1,4 @@
-## Summary
+# Crossref search package
 
 [Crossref](https://www.crossref.org/) is a SearchSource that contains metadata deposited by publishers.
 It is cross-disciplinary and has a size of over 125,000,000 records.

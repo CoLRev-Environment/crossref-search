@@ -1,15 +1,13 @@
 [project]
-name = "colrev.crossref"
-description = "Crossref package for CoLRev"
+name = "crossref-search"
+description = "Package for systematic searches using Crossref"
 version = "0.1.0"
-license = {text = "MIT"}
-authors = [
-    { name = "Gerit Wagner", email = "gerit.wagner@uni-bamberg.de" }
- ]
+license = { text = "MIT" }
+authors = [{ name = "Gerit Wagner", email = "g.wagner@fs.de" }]
 requires-python = ">=3.8, <4"
 
 [project.urls]
-repository = "https://github.com/CoLRev-Environment/colrev/tree/main/colrev/packages/crossref"
+repository = "https://github.com/CoLRev-Environment/crossref-search"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src"]
@@ -20,8 +18,8 @@ colrev_doc_link = "README.md"
 search_types = ["API", "TOC", "MD"]
 
 [project.entry-points.colrev]
-search_source = "colrev.packages.crossref.src.crossref_search_source:CrossrefSearchSource"
-prep = "colrev.packages.crossref.src.crossref_prep:CrossrefMetadataPrep"
+search_source = "src.crossref_search.crossref_search_source:CrossrefSearchSource"
+prep = "src.crossref_search.crossref_prep:CrossrefMetadataPrep"
 
 [build-system]
 requires = ["hatchling"]
